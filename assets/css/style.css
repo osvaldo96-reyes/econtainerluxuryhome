@@ -28,6 +28,16 @@ Headers:		'Montserrat', sans-serif;
 
 /*tipo de fuente*/
 
+select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 250px;
+}
+
+
 .serif {
   font-weight: normal;
   font-family: "Times New Roman", Times, serif;
@@ -57,8 +67,17 @@ letter-spacing: 1px;
 
   display: flex;
   align-items: center;
-  margin-left: -24%;
-    margin-right: -24%;
+  margin-left: 0%;
+    margin-right: -38%;
+}
+
+
+.services2{
+
+  display: flex;
+  align-items: center;
+  margin-left: 0%;
+    margin-right: -38%;
 }
 
 .content{
@@ -131,7 +150,7 @@ border-radius: 4px;
 
 }
 
-@media (max-width:900px){
+@media (max-width:900px)  and (max-width:768px){
 
   .services{
 
@@ -141,8 +160,28 @@ border-radius: 4px;
     flex-direction: column;
 
   }
+  
 
 }
+
+@media (max-width:900px)  and (max-width:768px){
+
+  .services2{
+
+    margin-top: 30px;
+    margin-left: -32%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+
+}
+
+
+
+
+
 
 
 div.polaroidProducto {
